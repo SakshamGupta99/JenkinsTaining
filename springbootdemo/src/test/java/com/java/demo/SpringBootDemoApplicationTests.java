@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo;
+package com.java.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
