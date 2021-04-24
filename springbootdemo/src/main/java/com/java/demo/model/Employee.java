@@ -1,5 +1,8 @@
 package com.java.demo.model;
 
+import org.hibernate.annotations.Entity;
+
+@Entity
 public class Employee {
 
 	public Employee() {

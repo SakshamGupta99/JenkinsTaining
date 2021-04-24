@@ -1,8 +1,11 @@
 package com.java.demo;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 
+@EnableAutoConfiguration(exclude = HibernateJpaAutoConfiguration.class)
 @SpringBootApplication 
 public class SpringBootDemoApplication {
 
